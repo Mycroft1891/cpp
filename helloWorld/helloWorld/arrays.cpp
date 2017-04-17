@@ -38,6 +38,7 @@
 //    
 //    // print multiples of 1..10
 //    int array[10][10];
+//    cout << "=============================" << endl;
 //    for (int i = 1; i <= 10; i++) {
 //        for (int j = 1; j <= 10; j++) {
 //            array[i][j] = i*j;
@@ -45,4 +46,29 @@
 //        }
 //        cout << endl;
 //    }
+//    
+//    // use array length in for loop
+//    cout << "=============================" << endl;
+//    for (int i = 1; i <= sizeof(array)/sizeof(array[0]); i++) {
+//        cout << "Array" << i << ": ";
+//        for (int j = 1; j <= 10; j++) {
+//            cout << array[i][j] << " ";
+//        }
+//        cout << endl;
+//    }
+//    
+//    string animals [2][3] = {
+//        {"one", "two", "three"},
+//        {"four", "five", "six"}
+//    };
+//    
+//    for (int i = 0; i < sizeof(animals)/sizeof(animals[0]); i++) {
+//        cout << "Animal" << i << ": ";
+//        for (int j = 0; j < sizeof(animals[0])/sizeof(string); j++) {
+//            cout << animals[i][j] << " ";
+//        }
+//        cout << endl;
+//    }
+//    
 //}
+//
