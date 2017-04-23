@@ -13,6 +13,8 @@
 		9E2320361EA1D84D0030ADC0 /* if_and_condition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E2320351EA1D84D0030ADC0 /* if_and_condition.cpp */; };
 		9E23203A1EA1F5FD0030ADC0 /* while_loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E2320391EA1F5FD0030ADC0 /* while_loop.cpp */; };
 		9E2FB95F1E9F5E5D00CC2103 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E2FB95E1E9F5E5D00CC2103 /* main.cpp */; };
+		9E58279A1EAC5C4A0089BB99 /* character_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5827991EAC5C4A0089BB99 /* character_array.cpp */; };
+		9E58279C1EAC61660089BB99 /* reference_values.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E58279B1EAC61660089BB99 /* reference_values.cpp */; };
 		9E5E61E51EA22DE700D67592 /* for_loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E61E41EA22DE700D67592 /* for_loop.cpp */; };
 		9E5E61E71EA2B3F100D67592 /* arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E61E61EA2B3F100D67592 /* arrays.cpp */; };
 		9E5E61EA1EA35FF800D67592 /* function_header.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E61E91EA35FF800D67592 /* function_header.cpp */; };
@@ -47,6 +49,8 @@
 		9E2320391EA1F5FD0030ADC0 /* while_loop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = while_loop.cpp; sourceTree = "<group>"; };
 		9E2FB95B1E9F5E5D00CC2103 /* helloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2FB95E1E9F5E5D00CC2103 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9E5827991EAC5C4A0089BB99 /* character_array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = character_array.cpp; sourceTree = "<group>"; };
+		9E58279B1EAC61660089BB99 /* reference_values.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reference_values.cpp; sourceTree = "<group>"; };
 		9E5E61E41EA22DE700D67592 /* for_loop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = for_loop.cpp; sourceTree = "<group>"; };
 		9E5E61E61EA2B3F100D67592 /* arrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = arrays.cpp; sourceTree = "<group>"; };
 		9E5E61E81EA35EB900D67592 /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
@@ -110,8 +114,10 @@
 				9E5E61E91EA35FF800D67592 /* function_header.cpp */,
 				9E5E61F01EA40B2900D67592 /* cpp_classes.cpp */,
 				9E7B9AF01EAB55EA00992A67 /* pointers_arrays.cpp */,
+				9E5827991EAC5C4A0089BB99 /* character_array.cpp */,
 				9E5E61ED1EA4080100D67592 /* classes */,
 				9E5E61EB1EA406F000D67592 /* src */,
+				9E58279B1EAC61660089BB99 /* reference_values.cpp */,
 			);
 			path = helloWorld;
 			sourceTree = "<group>";
@@ -196,7 +202,9 @@
 				9E5E61E71EA2B3F100D67592 /* arrays.cpp in Sources */,
 				9E2320361EA1D84D0030ADC0 /* if_and_condition.cpp in Sources */,
 				9E8841E11EA0D8FF009CA8C8 /* switch.cpp in Sources */,
+				9E58279A1EAC5C4A0089BB99 /* character_array.cpp in Sources */,
 				9E5E61F11EA40B2900D67592 /* cpp_classes.cpp in Sources */,
+				9E58279C1EAC61660089BB99 /* reference_values.cpp in Sources */,
 				9E81FFCE1E9F767F00A72D1E /* chatbot.cpp in Sources */,
 				9E2320321EA1B82F0030ADC0 /* floats.cpp in Sources */,
 				9E23203A1EA1F5FD0030ADC0 /* while_loop.cpp in Sources */,
