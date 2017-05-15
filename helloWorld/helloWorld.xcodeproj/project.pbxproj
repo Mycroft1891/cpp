@@ -15,6 +15,12 @@
 		9E2FB95F1E9F5E5D00CC2103 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E2FB95E1E9F5E5D00CC2103 /* main.cpp */; };
 		9E4B2FB81EC9251D003BB92A /* 19_new_operator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B2FB71EC9251D003BB92A /* 19_new_operator.cpp */; };
 		9E4B2FBA1EC933FA003BB92A /* 20_allocating_memory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B2FB91EC933FA003BB92A /* 20_allocating_memory.cpp */; };
+		9E4B2FBC1EC95A39003BB92A /* 21_arrays_functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B2FBB1EC95A39003BB92A /* 21_arrays_functions.cpp */; };
+		9E4B2FBF1EC95A7E003BB92A /* Dog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B2FBD1EC95A7E003BB92A /* Dog.cpp */; };
+		9E4B2FC21EC95DA4003BB92A /* Animals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B2FC01EC95DA4003BB92A /* Animals.cpp */; };
+		9E4B2FC41EC962D3003BB92A /* 22_namespaces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B2FC31EC962D3003BB92A /* 22_namespaces.cpp */; };
+		9E4B2FC61EC9813E003BB92A /* 23_inheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B2FC51EC9813D003BB92A /* 23_inheritance.cpp */; };
+		9E4B2FC81EC98FB0003BB92A /* 24_constructor_inheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B2FC71EC98FB0003BB92A /* 24_constructor_inheritance.cpp */; };
 		9E58279A1EAC5C4A0089BB99 /* 17_character_array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5827991EAC5C4A0089BB99 /* 17_character_array.cpp */; };
 		9E58279C1EAC61660089BB99 /* 18_reference_values.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E58279B1EAC61660089BB99 /* 18_reference_values.cpp */; };
 		9E5E61E51EA22DE700D67592 /* 12_for_loop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E5E61E41EA22DE700D67592 /* 12_for_loop.cpp */; };
@@ -29,6 +35,7 @@
 		9E8841DF1EA0D59F009CA8C8 /* 4_character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E8841DE1EA0D59F009CA8C8 /* 4_character.cpp */; };
 		9E8841E11EA0D8FF009CA8C8 /* 5_switch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E8841E01EA0D8FF009CA8C8 /* 5_switch.cpp */; };
 		9E8841E31EA0DD12009CA8C8 /* 6_random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E8841E21EA0DD12009CA8C8 /* 6_random.cpp */; };
+		9EC509FC1EC995EA00B8A765 /* 25_static_keyword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EC509FB1EC995EA00B8A765 /* 25_static_keyword.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +60,14 @@
 		9E2FB95E1E9F5E5D00CC2103 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9E4B2FB71EC9251D003BB92A /* 19_new_operator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 19_new_operator.cpp; sourceTree = "<group>"; };
 		9E4B2FB91EC933FA003BB92A /* 20_allocating_memory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 20_allocating_memory.cpp; sourceTree = "<group>"; };
+		9E4B2FBB1EC95A39003BB92A /* 21_arrays_functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 21_arrays_functions.cpp; sourceTree = "<group>"; };
+		9E4B2FBD1EC95A7E003BB92A /* Dog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dog.cpp; sourceTree = "<group>"; };
+		9E4B2FBE1EC95A7E003BB92A /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		9E4B2FC01EC95DA4003BB92A /* Animals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animals.cpp; sourceTree = "<group>"; };
+		9E4B2FC11EC95DA4003BB92A /* Animals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animals.h; sourceTree = "<group>"; };
+		9E4B2FC31EC962D3003BB92A /* 22_namespaces.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 22_namespaces.cpp; sourceTree = "<group>"; };
+		9E4B2FC51EC9813D003BB92A /* 23_inheritance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 23_inheritance.cpp; sourceTree = "<group>"; };
+		9E4B2FC71EC98FB0003BB92A /* 24_constructor_inheritance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 24_constructor_inheritance.cpp; sourceTree = "<group>"; };
 		9E5827991EAC5C4A0089BB99 /* 17_character_array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 17_character_array.cpp; sourceTree = "<group>"; };
 		9E58279B1EAC61660089BB99 /* 18_reference_values.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 18_reference_values.cpp; sourceTree = "<group>"; };
 		9E5E61E41EA22DE700D67592 /* 12_for_loop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 12_for_loop.cpp; sourceTree = "<group>"; };
@@ -69,6 +84,7 @@
 		9E8841DE1EA0D59F009CA8C8 /* 4_character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 4_character.cpp; sourceTree = "<group>"; };
 		9E8841E01EA0D8FF009CA8C8 /* 5_switch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 5_switch.cpp; sourceTree = "<group>"; };
 		9E8841E21EA0DD12009CA8C8 /* 6_random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 6_random.cpp; sourceTree = "<group>"; };
+		9EC509FB1EC995EA00B8A765 /* 25_static_keyword.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 25_static_keyword.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +138,11 @@
 				9E58279B1EAC61660089BB99 /* 18_reference_values.cpp */,
 				9E4B2FB71EC9251D003BB92A /* 19_new_operator.cpp */,
 				9E4B2FB91EC933FA003BB92A /* 20_allocating_memory.cpp */,
+				9E4B2FBB1EC95A39003BB92A /* 21_arrays_functions.cpp */,
+				9E4B2FC31EC962D3003BB92A /* 22_namespaces.cpp */,
+				9E4B2FC51EC9813D003BB92A /* 23_inheritance.cpp */,
+				9E4B2FC71EC98FB0003BB92A /* 24_constructor_inheritance.cpp */,
+				9EC509FB1EC995EA00B8A765 /* 25_static_keyword.cpp */,
 				9E5E61ED1EA4080100D67592 /* classes */,
 				9E5E61EB1EA406F000D67592 /* src */,
 			);
@@ -131,6 +152,8 @@
 		9E5E61EB1EA406F000D67592 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				9E4B2FC11EC95DA4003BB92A /* Animals.h */,
+				9E4B2FBE1EC95A7E003BB92A /* Dog.h */,
 				9E5E61E81EA35EB900D67592 /* util.h */,
 				9E5E61EC1EA4079200D67592 /* Cat.h */,
 			);
@@ -141,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				9E5E61EE1EA4081800D67592 /* Cat.cpp */,
+				9E4B2FBD1EC95A7E003BB92A /* Dog.cpp */,
+				9E4B2FC01EC95DA4003BB92A /* Animals.cpp */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -208,8 +233,10 @@
 				9E81FFD01E9F7FD200A72D1E /* 3_numbers.cpp in Sources */,
 				9E5E61E71EA2B3F100D67592 /* 13_arrays.cpp in Sources */,
 				9E2320361EA1D84D0030ADC0 /* 10_if_and_condition.cpp in Sources */,
+				9E4B2FC21EC95DA4003BB92A /* Animals.cpp in Sources */,
 				9E8841E11EA0D8FF009CA8C8 /* 5_switch.cpp in Sources */,
 				9E58279A1EAC5C4A0089BB99 /* 17_character_array.cpp in Sources */,
+				9EC509FC1EC995EA00B8A765 /* 25_static_keyword.cpp in Sources */,
 				9E5E61F11EA40B2900D67592 /* 15_cpp_classes.cpp in Sources */,
 				9E58279C1EAC61660089BB99 /* 18_reference_values.cpp in Sources */,
 				9E81FFCE1E9F767F00A72D1E /* 2_chatbot.cpp in Sources */,
@@ -219,10 +246,15 @@
 				9E81FFCC1E9F75E300A72D1E /* 1_io.cpp in Sources */,
 				9E2320301EA1B1130030ADC0 /* 7_integer.cpp in Sources */,
 				9E5E61EA1EA35FF800D67592 /* 14_function_header.cpp in Sources */,
+				9E4B2FC41EC962D3003BB92A /* 22_namespaces.cpp in Sources */,
 				9E8841E31EA0DD12009CA8C8 /* 6_random.cpp in Sources */,
+				9E4B2FC81EC98FB0003BB92A /* 24_constructor_inheritance.cpp in Sources */,
+				9E4B2FBC1EC95A39003BB92A /* 21_arrays_functions.cpp in Sources */,
+				9E4B2FBF1EC95A7E003BB92A /* Dog.cpp in Sources */,
 				9E2320341EA1D0A00030ADC0 /* 9_boolean.cpp in Sources */,
 				9E2FB95F1E9F5E5D00CC2103 /* main.cpp in Sources */,
 				9E5E61E51EA22DE700D67592 /* 12_for_loop.cpp in Sources */,
+				9E4B2FC61EC9813E003BB92A /* 23_inheritance.cpp in Sources */,
 				9E8841DF1EA0D59F009CA8C8 /* 4_character.cpp in Sources */,
 				9E7B9AF11EAB55EA00992A67 /* 16_pointers_arrays.cpp in Sources */,
 			);
