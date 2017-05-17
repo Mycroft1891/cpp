@@ -39,13 +39,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9E2FB9591E9F5E5C00CC2103 /* CopyFiles */ = {
+		9E2FB9591E9F5E5C00CC2103 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -58,6 +59,8 @@
 		9E2320391EA1F5FD0030ADC0 /* 11_while_loop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 11_while_loop.cpp; sourceTree = "<group>"; };
 		9E2FB95B1E9F5E5D00CC2103 /* helloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2FB95E1E9F5E5D00CC2103 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9E4A97621ECBBEDB00E15BEF /* SDL2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SDL2; path = ../../../../../usr/local/Cellar/sdl2/2.0.3/include/SDL2; sourceTree = "<group>"; };
+		9E4A97641ECBBF5900E15BEF /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../../usr/local/Cellar/sdl2/2.0.3/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
 		9E4B2FB71EC9251D003BB92A /* 19_new_operator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 19_new_operator.cpp; sourceTree = "<group>"; };
 		9E4B2FB91EC933FA003BB92A /* 20_allocating_memory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 20_allocating_memory.cpp; sourceTree = "<group>"; };
 		9E4B2FBB1EC95A39003BB92A /* 21_arrays_functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 21_arrays_functions.cpp; sourceTree = "<group>"; };
@@ -103,6 +106,7 @@
 			children = (
 				9E2FB95D1E9F5E5D00CC2103 /* helloWorld */,
 				9E2FB95C1E9F5E5D00CC2103 /* Products */,
+				9E4A97611ECBBEDB00E15BEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +153,15 @@
 			path = helloWorld;
 			sourceTree = "<group>";
 		};
+		9E4A97611ECBBEDB00E15BEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E4A97641ECBBF5900E15BEF /* libSDL2-2.0.0.dylib */,
+				9E4A97621ECBBEDB00E15BEF /* SDL2 */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9E5E61EB1EA406F000D67592 /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,7 +192,7 @@
 			buildPhases = (
 				9E2FB9571E9F5E5C00CC2103 /* Sources */,
 				9E2FB9581E9F5E5C00CC2103 /* Frameworks */,
-				9E2FB9591E9F5E5C00CC2103 /* CopyFiles */,
+				9E2FB9591E9F5E5C00CC2103 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -354,6 +367,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 8KU532725H;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sdl2/2.0.3/lib,
+				);
+				"OTHER_CFLAGS[arch=*]" = (
+					"-I/usr/local/include/SDL2",
+					"-D_THREAD_SAFE",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-L/usr/local/lib",
+					"-lSDL2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -362,6 +387,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 8KU532725H;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sdl2/2.0.3/lib,
+				);
+				"OTHER_CFLAGS[arch=*]" = (
+					"-I/usr/local/include/SDL2",
+					"-D_THREAD_SAFE",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-L/usr/local/lib",
+					"-lSDL2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
